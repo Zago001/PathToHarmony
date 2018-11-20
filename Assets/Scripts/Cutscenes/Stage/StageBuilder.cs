@@ -15,6 +15,9 @@ namespace Cutscenes.Stages {
 		public string sfx;
 		public string background;
 
+		public bool pauseBattleTheme = false;
+		public bool stopAudio = false;
+
 		public StageBuilder SetSpeaker(string speaker) {
 			this.speaker = speaker;
 			return this;
@@ -35,8 +38,18 @@ namespace Cutscenes.Stages {
 			return this;
 		}
 
+		public StageBuilder PauseBattleTheme() {
+			pauseBattleTheme = true;
+			return this;
+		}
+
 		public StageBuilder SetAudio(string audioID) {
 			this.sfx = audioID;
+			return this;
+		}
+
+		public StageBuilder StopAudio() {
+			this.stopAudio = true;
 			return this;
 		}
 

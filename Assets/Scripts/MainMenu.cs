@@ -67,7 +67,12 @@ public class MainMenu : MonoBehaviour {
 
 	public void resumeGame() {
 		Persistence.loadProgress();
-		playGame();
+
+		if (Persistence.campaign.levelIndex > 0) {
+			fade.fadeToScene("demobattle");
+		} else {
+			playGame();
+		}
 	}
 
 	public void showOptions() {
@@ -201,14 +206,14 @@ public class MainMenu : MonoBehaviour {
 			new Character("Blair", true, new PlayerAgent()),
 			new Character("Tsubin Army", false, new EliminationAgent())
 		};
-		Level level7 = new Level("CraterBattle", "7", CraterBattleCharacters, new Cutscene[] { new PreBattle7(), new PostBattle7() });
+		Level level7 = new Level("CraterBattleNew", "7New", CraterBattleCharacters, new Cutscene[] { new PreBattle7(), new PostBattle7() });
 
 		//Level 8: Battle for Xingata
 		Character[] XingataCharacters = new[] {
 			new Character("Blair", true, new PlayerAgent()),
 			new Character("King Rouen", false, new EliminationAgent())
 		};
-		Level level8 = new Level("CraterCenter", "8", XingataCharacters, new Cutscene[] { });
+		Level level8 = new Level("CraterCenter", "8", XingataCharacters, new Cutscene[] { new PreBattle8(), new PostBattle8() });
 
 
 

@@ -336,7 +336,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0.48425293, y: 0}
+  m_SizeDelta: {x: 0, y: 0.4196167}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &63667725
 MonoBehaviour:
@@ -2110,36 +2110,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1.25
-  m_Text: 'Credits
-
-
-
-    Project Lead:
-
-    Alice Kalok
-
-
-    Programming
-
-
-    3D art
-
-
-    2D art
-
-
-    Writing
-
-
-    Level design
-
-
-    Music
-
-
-    Sound effects
-
-'
+  m_Text: "Credits\r\n\r\n\r\nProject Lead\r\nAlice Kalok\r\n\r\nProgramming\r\nAlice
+    Kalok\r\nZachary Goddard\r\nRachel Tierney\r\nAndy Xue\r\nMatthew Musselman\r\nGrace
+    Rarer\r\nSarah Tsai\r\n\r\n3D art\r\nKyle \r\nSean Flanagan\r\nAlice Kalok\r\n\r\n2D
+    art\r\nNicole Harris\r\nCharleston Ford\r\n\r\nWriting\r\nJin Woo Lee\r\nAlice
+    Kalok\r\n\r\nLevel design\r\nJames Lee\r\nAlice Kalok\r\n\r\nMusic\r\nMay Lawver\r\nLenno
+    Liu\r\n\r\nSound effects\r\nAlice Kalok\r\n\r\nTesting\r\nSamuel Ong\r\n\r\nSpecial
+    thanks to http://lorcblog.blogspot.com/, and http://dycha.net for use of UI assets\r\n"
 --- !u!222 &1117721522
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2821,7 +2798,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0.48425293, y: 0}
+  m_SizeDelta: {x: 0, y: 0.4196167}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1365035197
 MonoBehaviour:
@@ -2842,7 +2819,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 5fce5eb169bfe4b4fb2bcae64880a464, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d8cfdb66f68aed64092567465837656d, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -3076,6 +3053,10 @@ Prefab:
         type: 2}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1228203196986342, guid: ad46b7868530e534fa88d42481419d80, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad46b7868530e534fa88d42481419d80, type: 2}
@@ -4171,7 +4152,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0.48425293, y: 0}
+  m_SizeDelta: {x: 0, y: 0.4196167}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1978996187
 MonoBehaviour:

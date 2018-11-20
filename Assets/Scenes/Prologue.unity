@@ -264,7 +264,6 @@ RectTransform:
   - {fileID: 1626249443}
   - {fileID: 2140467359}
   - {fileID: 1028263388}
-  - {fileID: 1440763645}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -337,22 +336,22 @@ Prefab:
     - target: {fileID: 224823898250032648, guid: ac24b48690fed974ca3c0660df5a2b45,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -799.9999
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224823898250032648, guid: ac24b48690fed974ca3c0660df5a2b45,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -449.7902
+      value: -0.000030517578
       objectReference: {fileID: 0}
     - target: {fileID: 224823898250032648, guid: ac24b48690fed974ca3c0660df5a2b45,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: -1599.9999
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224823898250032648, guid: ac24b48690fed974ca3c0660df5a2b45,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: -899.5803
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224823898250032648, guid: ac24b48690fed974ca3c0660df5a2b45,
         type: 2}
@@ -398,6 +397,11 @@ Prefab:
         type: 2}
       propertyPath: m_LocalScale.z
       value: 2.2377622
+      objectReference: {fileID: 0}
+    - target: {fileID: 114372403193147050, guid: ac24b48690fed974ca3c0660df5a2b45,
+        type: 2}
+      propertyPath: speed
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac24b48690fed974ca3c0660df5a2b45, type: 2}
@@ -473,126 +477,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1001 &1440763644
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 631812587}
-    m_Modifications:
-    - target: {fileID: 224220120919168518, guid: ad46b7868530e534fa88d42481419d80,
-        type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224220120919168518, guid: ad46b7868530e534fa88d42481419d80,
-        type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224220120919168518, guid: ad46b7868530e534fa88d42481419d80,
-        type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224220120919168518, guid: ad46b7868530e534fa88d42481419d80,
-        type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224220120919168518, guid: ad46b7868530e534fa88d42481419d80,
-        type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224220120919168518, guid: ad46b7868530e534fa88d42481419d80,
-        type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224220120919168518, guid: ad46b7868530e534fa88d42481419d80,
-        type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224220120919168518, guid: ad46b7868530e534fa88d42481419d80,
-        type: 2}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 224220120919168518, guid: ad46b7868530e534fa88d42481419d80,
-        type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: -799.9998
-      objectReference: {fileID: 0}
-    - target: {fileID: 224220120919168518, guid: ad46b7868530e534fa88d42481419d80,
-        type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: -449.79028
-      objectReference: {fileID: 0}
-    - target: {fileID: 224220120919168518, guid: ad46b7868530e534fa88d42481419d80,
-        type: 2}
-      propertyPath: m_SizeDelta.x
-      value: -1599.9999
-      objectReference: {fileID: 0}
-    - target: {fileID: 224220120919168518, guid: ad46b7868530e534fa88d42481419d80,
-        type: 2}
-      propertyPath: m_SizeDelta.y
-      value: -899.5803
-      objectReference: {fileID: 0}
-    - target: {fileID: 224220120919168518, guid: ad46b7868530e534fa88d42481419d80,
-        type: 2}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224220120919168518, guid: ad46b7868530e534fa88d42481419d80,
-        type: 2}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224220120919168518, guid: ad46b7868530e534fa88d42481419d80,
-        type: 2}
-      propertyPath: m_AnchorMax.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224220120919168518, guid: ad46b7868530e534fa88d42481419d80,
-        type: 2}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224220120919168518, guid: ad46b7868530e534fa88d42481419d80,
-        type: 2}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 224220120919168518, guid: ad46b7868530e534fa88d42481419d80,
-        type: 2}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 224220120919168518, guid: ad46b7868530e534fa88d42481419d80,
-        type: 2}
-      propertyPath: m_LocalScale.x
-      value: 2.2377625
-      objectReference: {fileID: 0}
-    - target: {fileID: 224220120919168518, guid: ad46b7868530e534fa88d42481419d80,
-        type: 2}
-      propertyPath: m_LocalScale.y
-      value: 2.2377625
-      objectReference: {fileID: 0}
-    - target: {fileID: 224220120919168518, guid: ad46b7868530e534fa88d42481419d80,
-        type: 2}
-      propertyPath: m_LocalScale.z
-      value: 2.2377625
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ad46b7868530e534fa88d42481419d80, type: 2}
-  m_IsPrefabAsset: 0
---- !u!224 &1440763645 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 224220120919168518, guid: ad46b7868530e534fa88d42481419d80,
-    type: 2}
-  m_PrefabInternal: {fileID: 1440763644}
 --- !u!114 &1502091770 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114372403193147050, guid: ac24b48690fed974ca3c0660df5a2b45,
@@ -668,6 +552,250 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1626249442}
   m_CullTransparentMesh: 0
+--- !u!1 &1629758415
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1629758420}
+  - component: {fileID: 1629758419}
+  - component: {fileID: 1629758418}
+  - component: {fileID: 1629758417}
+  - component: {fileID: 1629758416}
+  m_Layer: 0
+  m_Name: Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1629758416
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1629758415}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 243016797410847528, guid: 426083f2385b33e498ab40fc9b641178,
+    type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!82 &1629758417
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1629758415}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 243891250873675572, guid: 426083f2385b33e498ab40fc9b641178,
+    type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!81 &1629758418
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1629758415}
+  m_Enabled: 1
+--- !u!114 &1629758419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1629758415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d43a2ac434a1e8b4d9f98f7b6fc7664a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialSfx: {fileID: 1629758416}
+  initialMusic: {fileID: 1629758417}
+--- !u!4 &1629758420
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1629758415}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 25.741392, y: 9.719818, z: 58.333046}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2037584386
 GameObject:
   m_ObjectHideFlags: 0
@@ -677,7 +805,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2037584389}
   - component: {fileID: 2037584388}
-  - component: {fileID: 2037584387}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -685,13 +812,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &2037584387
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2037584386}
-  m_Enabled: 1
 --- !u!20 &2037584388
 Camera:
   m_ObjectHideFlags: 0
@@ -812,21 +932,20 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "    The delicate balance of power between the four nations, Kingdom of
-    Xingata, Kingdom of Tsubin, Velgari Alliance and Tribes of Corbita, kept the world
-    at peace for a century. That peace ended when a plague of unknown origin and cause
-    swept across the land. No cure proved effective against the terrible disease except
-    rare crystals aptly named \u2018Pieces of Heaven\u2019 that are only found on
-    meteorites that fell from the sky.\r\n    Four nations\u2019 frantic search for
-    \u2018Pieces of Heaven\u2019 met an unexpected turn when large meteors filled
-    with the crystals fell to Harmony Crater. Now, all four nations mobilize their
-    armies and rush to the Crater to obtain the only known cures to the plague.\r\nMeanwhile,
-    another class of cadets are about to graduate Royal Academy of Xingata and become
-    officers of Royal Retinue, Xingatan King\u2019s personal army. Some of these officers
-    carry out special missions as tactical advisers and supervisors to Xingatan feudal
-    lords who answer to the King\u2019s orders but command their own armies. Blair
-    and Juniper, the two brightest cadets of their class, are about to embark on one
-    such mission, accompanied by a veteran officer and old friend, Bruno.\r\n"
+  m_Text: "The delicate balance of power between the four nations, Kingdom of Xingata,
+    Kingdom of Tsubin, Velgari Alliance and Tribes of Corbita, kept the world at peace
+    for a century. That peace ended when a plague of unknown origin and cause swept
+    across the land. No cure proved effective against the terrible disease except
+    rare crystals aptly named \u2018Pieces of Heaven\u2019, which are only found on
+    meteorites fallen to earth.\r\n\nThe four nations\u2019 frantic search for Pieces
+    of Heaven met an unexpected turn when large meteors filled with the crystals fell
+    to Harmony Crater. Now, all four nations mobilize their armies and rush to the
+    Crater to obtain the only known cures of the plague.\r\n\nMeanwhile, another class
+    of cadets are about to graduate Royal Academy of Xingata and become officers of
+    Royal Retinue, King Rouen\u2019s personal army. Some of these officers carry out
+    special missions as tactical advisers and supervisors to Xingatan feudal lords.
+    Blair and Juniper, the two brightest cadets of their class, are about to embark
+    on one such mission accompanied by a veteran officer and old friend, Bruno.\r"
 --- !u!222 &2140467361
 CanvasRenderer:
   m_ObjectHideFlags: 0
